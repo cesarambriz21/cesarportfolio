@@ -1,0 +1,56 @@
+
+
+.vid_blah {
+	width: 50%;
+}
+
+.informational {
+	clear: both;
+}
+
+h1{
+	clear: both;
+	font-family: helvetica;
+}
+img{
+	max-width: 100%;
+	height: auto;
+}
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #333;
+}
+
+li {
+    float: right;
+    font-size: 20px;
+}
+
+li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+    background-color: #111;
+}
+.background{
+	opacity: 0.2;
+    
+}
+.test{
+	background-color: purple;
+	width: 30px;
+	height: 30px;
+	padding: 100px;
+	border: 10px solid blue;
+	border-radius: 30px;
+	margin-left: 30px;
+}
