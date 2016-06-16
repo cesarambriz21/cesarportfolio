@@ -3,8 +3,8 @@
 
 body {
 	background-image: url("../img/display.jpg");
-	background-size: 99%;
-	background-repeat: no-repeat;
+  background-repeat: repeat;
+  background-size: 100%;
 }
 
 .vid_blah {
@@ -14,10 +14,15 @@ body {
 .informational {
 	clear: both;
 }
-.trad_container{
-    clear: both;
-    color: black;
+
+section.container {
+  text-align: center;
 }
+.container{
+  text-align: center;
+
+}
+
 
 h1{
 
@@ -111,12 +116,27 @@ li a:hover {
     
   }
   h3{
-
+    margin-left: auto;
+    margin-right: auto;
     font-size: 50px;
     display: block;
   }
   img{
     max-width: 100%;
+  }
+  iframe{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+  }
+
+  .trad_container img {
+    width: 150px;
+    height: 200px;
+  }
+  footer{
+    text-align: center;
+    font-size: 20px;
   }
 /* General Rules End */
 
@@ -125,7 +145,7 @@ li a:hover {
 @media screen and (max-width: 600px) {
 
   body {
-    background-color: purple;
+   
   }
 
   ul.topnav li:not(:first-child) {display: none;}
@@ -152,13 +172,25 @@ li a:hover {
   }
 
 }
+footer{
+  padding: 10px;
+  font-family: helvetica-bold;
+}
+form{
+    margin-left: auto;
+    margin-right: auto;
+    display: block;
+}
     
     /*Home Page End*/
 
     /*Tablet Screen Begin*/
 @media only screen and (min-width: 601px){
        
-
+  .trad_container img {
+    width: 200px;
+    height: 260px;
+  }
 
 }
 
